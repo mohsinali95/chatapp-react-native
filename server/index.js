@@ -8,12 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 var config = {
-    apiKey: "AIzaSyB6EpzJRXR6PPQ4VmrUDUV83SEdwE3IwyQ",
-    authDomain: "chatapp-89790.firebaseapp.com",
-    databaseURL: "https://chatapp-89790.firebaseio.com",
-    projectId: "chatapp-89790",
-    storageBucket: "chatapp-89790.appspot.com",
-    messagingSenderId: "1005049688886"
+
   };
   firebase.initializeApp(config);
 
